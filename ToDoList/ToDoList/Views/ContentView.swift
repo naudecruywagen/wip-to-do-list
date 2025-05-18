@@ -29,7 +29,6 @@ struct ContentView: View {
                         }
                     }
                 }
-                .onDelete(perform: store.delete)
             }
             .navigationTitle("To-Do List")
             .toolbar {
