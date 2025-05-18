@@ -24,7 +24,7 @@ This project is part of a remote team exercise to help developers experience how
 2. **No WIP Limit:** Developers pick 1–2 tasks each from the task list and start coding immediately.  
 3. **Open PR Early:** As soon as some code is ready (even if partially complete), push to a feature branch and open a Pull Request. Post in Slack asking for review.  
 4. **Pick New Tasks:** While waiting for reviews, pick up additional tasks without waiting for merges.  
-5. **Allow Context Switching:** Developers naturally switch between tasks A, B, PR reviews, CI fixes, etc.  
+5. **Allow Context Switching:** Developers naturally switch between tasks A, B, PR reviews, etc.  
 6. **Track WIP:** Facilitator observes the number of open PRs.  
 7. **Stop:** After 10 minutes, halt coding; leave PRs open.  
 
