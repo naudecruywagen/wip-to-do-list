@@ -8,7 +8,9 @@ struct Task: Identifiable, Codable {
     var priority: Priority?
 
     enum Priority: String, Codable, CaseIterable {
-        case low, medium, high
+        case low
+        case medium
+        case high
     }
 
     init(id: UUID = UUID(), title: String, isCompleted: Bool = false, dueDate: Date? = nil, priority: Priority? = nil) {
