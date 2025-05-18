@@ -46,7 +46,6 @@ struct AddTaskView: View {
                         store.add(newTask)
                         isPresented = false
                     }
-                    .disabled(title.isEmpty)
                 }
                 ToolbarItem(placement: .cancellationAction) {
                     Button("Cancel") {
