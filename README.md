@@ -58,8 +58,8 @@ This project is part of a remote team exercise to help developers experience how
 The following tasks are designed to be completed as part of the WIP/practice rounds. Each one should be done in its own branch and submitted via a pull request.
 
 1. Implement swipe-to-delete UI in `ContentView` to allow deleting individual tasks.
-2. Implement `TaskStore.loadTasks()` to load tasks from disk (using Persistence).
-3. Implement `TaskStore.saveTasks()` to save tasks to disk (using Persistence).
+2. Implement `TaskStore.loadTasks()` to load tasks from disk (using UserDefaults in `Persistence`).
+3. Implement `TaskStore.saveTasks()` to save tasks to disk (using UserDefaults in `Persistence`).
 4. Write a unit test in `testAddTask()` to verify adding a task updates the `tasks` array.
 5. Write a unit test in `testDeleteTask()` to verify deleting a task removes it.
 6. Write a unit test in `testToggleCompletion()` to verify toggling completion state updates the task.
@@ -74,7 +74,7 @@ The following tasks are designed to be completed as part of the WIP/practice rou
 15. Show badge count of incomplete tasks on the navigation bar.
 16. Localize all user-facing strings (e.g., Text and button labels).
 17. Add dark mode support: ensure UI looks good in dark appearance.
-18. Enhance persistence: e.g. switch from UserDefaults to JSON file storage, using `Persistence`.
+18. Enhance persistence: switch from UserDefaults to JSON file storage, using `Persistence`.
 19. Add UI tests or snapshot tests for adding/deleting tasks.
 
 ## License
