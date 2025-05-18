@@ -11,7 +11,47 @@ This project is part of a remote team exercise to help developers experience how
 1. Clone the repository and open `ToDoList.xcodeproj` in Xcode.
 2. Build and run the app on iOS Simulator or a real device.
 3. Explore the existing functionality: create tasks, mark them complete, view due dates, and set priorities.
-4. See the task list below for developer enhancements.
+4. Review the Exercise Instructions section below to run the two rounds.
+5. Assign developer tasks (see "Developer Tasks" section) in branches and open PRs per the WIP rules.
+
+## Exercise Instructions
+
+### Round 1: High WIP Scenario (Unlimited PRs)
+
+**Timebox:** 10 minutes coding + 5 minutes debrief
+
+1. **Start:** Facilitator announces the beginning of Round 1.  
+2. **No WIP Limit:** Developers pick 1–2 tasks each from the task list and start coding immediately.  
+3. **Open PR Early:** As soon as some code is ready (even if partially complete), push to a feature branch and open a Pull Request. Post in Slack asking for review.  
+4. **Pick New Tasks:** While waiting for reviews, pick up additional tasks without waiting for merges.  
+5. **Allow Context Switching:** Developers naturally switch between tasks A, B, PR reviews, CI fixes, etc.  
+6. **Track WIP:** Facilitator observes the number of open PRs.  
+7. **Stop:** After 10 minutes, halt coding; leave PRs open.  
+
+**Debrief (5 min):**  
+- How many PRs are open?  
+- How many PRs merged?  
+- What was the average PR open time?  
+- How did context switching feel?  
+- Discuss impact on cycle time and mental load.
+
+### Round 2: Low WIP Scenario (WIP Limits in Action)
+
+**Timebox:** 10 minutes coding + 5 minutes debrief
+
+1. **Reset:** Close or ignore Round 1 PRs; reset main branch or use a fresh branch.  
+2. **Enforce WIP Limit:** Each developer may have **only 1 open PR** at a time.  
+3. **Pick 1 Task:** Choose a single task and work to completion before opening a PR.  
+4. **Open PR & Stop:** When done, open the PR and **stop coding new work**.  
+5. **Review & Merge:** Review peers’ PRs, help fix issues, and get the PR merged.  
+6. **Pull Next Task:** After merge, pick the next task and repeat.  
+7. **Stop:** After 10 minutes, halt work; note merged PRs.
+
+**Debrief (5 min):**  
+- How many PRs were merged?  
+- How many PRs remain open?  
+- How did focus differ from Round 1?  
+- Discuss cycle time improvement and team collaboration.
 
 ## Developer Tasks
 
