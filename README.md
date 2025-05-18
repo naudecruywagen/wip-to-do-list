@@ -24,7 +24,7 @@ The following tasks are designed to be completed as part of the WIP/practice rou
 5. Write a unit test in `testDeleteTask()` to verify deleting a task removes it.
 6. Write a unit test in `testToggleCompletion()` to verify toggling completion state updates the task.
 7. Prevent adding tasks with empty titles in the UI and at the model level (add validation in Task initializer).
-8. Implement sorting of tasks by due date in `ContentView` (stub is in place).
+8. Implement sorting of tasks by due date in `ContentView`.
 9. Add a UI change: highlight overdue tasks in red in the list.
 10. Add a filter toggle in `ContentView` to show only incomplete tasks.
 11. Implement an "Edit Task" feature: create `EditTaskView` and allow tapping a task cell to edit.
@@ -34,8 +34,8 @@ The following tasks are designed to be completed as part of the WIP/practice rou
 15. Show badge count of incomplete tasks on the navigation bar.
 16. Localize all user-facing strings (e.g., Text and button labels).
 17. Add dark mode support: ensure UI looks good in dark appearance.
-18. Enhance persistence: switch from UserDefaults stub to JSON file storage using `Persistence`.
-19. Add UI tests or snapshot tests for adding/deleting tasks (optional).
+18. Enhance persistence: e.g. switch from UserDefaults to JSON file storage, using `Persistence`.
+19. Add UI tests or snapshot tests for adding/deleting tasks.
 
 ## License
 
